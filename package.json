@@ -1,0 +1,31 @@
+{
+  "name": "coding-test",
+  "version": "1.0.0",
+  "description": "Please checkout new brach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(html|vue|ts|js|json|cjs)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLT9/Coding-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LLT9/Coding-Test/issues"
+  },
+  "homepage": "https://github.com/LLT9/Coding-Test#readme",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "dotenv": "^16.0.3",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
